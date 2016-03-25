@@ -26,7 +26,7 @@ aside{
     padding: 0;
     margin: 0;
     list-style: none;
-    text-decoration: none;
+    
 }
 
 
@@ -34,7 +34,8 @@ aside{
 }
 .main-menu li{
 }
-.main-menu li a{
+.side-menu li a{
+    text-decoration: none;
 }
 
 .social-menu{
