@@ -1,6 +1,13 @@
 body{
-    font-family: open sans;
+    font-family: 'open sans',sans-serif;
 }
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 500;
+}
+
 
 aside{
 
@@ -17,29 +24,53 @@ aside{
 .side-menu{
     width: 100px;
     height: 100%;
-    background-color: #47ECFF;
+    background-color: white;
     color: black;
     z-index: 1;
 }
+
+.logo{
+    display: block;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
 
 .unstyled-list ul{
     padding: 0;
     margin: 0;
     list-style: none;
-    
+    text-align: center;
 }
 
+.main-menu ul{}
 
-.main-menu ul{
-}
 .main-menu li{
+    transform: rotate(-90deg);
+    padding: 30px 0;
+    -webkit-transition:.5s ease;
+    transition:.5s ease;
 }
+.main-menu li:hover{
+    transform: rotate(0deg);
+}
+
+
+
+
 .side-menu li a{
     text-decoration: none;
+    color: black;
 }
 
 .social-menu{
-
+    position: fixed;
+    bottom: 30px;
+}
+.social-menu li{
+    display: inline-block;
+    margin: 0 7px;
 }
 
 
