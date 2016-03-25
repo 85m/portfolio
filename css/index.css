@@ -83,3 +83,16 @@ aside{
     background-color: #333;
     color: white;
 }
+
+
+#section-home{
+    background-image: linear-gradient(rgba(254,255,255,0), rgba(0,0,0,1)), url('../img/firewatch.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.quotation{text-align: center;}
+.quotation p{}
+.quotation footer{text-align: left;}
+

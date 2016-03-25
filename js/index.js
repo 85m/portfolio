@@ -1,7 +1,9 @@
 $(document).ready(function(){
 
-console.log("init");
+	console.log("init");
 
-$('#fullpage').fullpage();
+	$('#fullpage').fullpage({
+		anchors:['home', 'about', 'work','contact']
+	});
 
 });
